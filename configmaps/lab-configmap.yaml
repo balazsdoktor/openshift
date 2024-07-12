@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab-map
+spec:
+  containers:
+  - env:
+    - name: MESSAGE
+      value: Lab environment variable from file
